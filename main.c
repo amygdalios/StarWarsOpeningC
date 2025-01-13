@@ -17,6 +17,8 @@ void displayFrame(const char *filename){
     while (fgets(line, sizeof(line), file)){
         printf("%s", line);
     }   
+
+    fclose(file);
 }
 
 void playScene() {
