@@ -25,7 +25,7 @@ for frame in frame_files:
     try:
         # Use jp2a to convert the PNG frame to ASCII art and save to output file
         subprocess.run(
-            ["jp2a", "--width=80", input_path, "--output=" + output_path],
+            ["jp2a", "--width=120", input_path, "--output=" + output_path],
             check=True
         )
         print(f"Converted {frame} to ASCII art.")
