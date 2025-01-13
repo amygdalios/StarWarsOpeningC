@@ -3,8 +3,8 @@
 #include <unistd.h>
 #include <signal.h>
 
-#define FRAME_COUNT 1700
-#define FRAME_DELAY 83333 // Lowered frame delay to match audio (Delay for 12fps)
+#define FRAME_COUNT 2040
+#define FRAME_DELAY 66666 // Lowered frame delay to match audio (Delay for 15fps)
 
 pid_t audio_pid; // Store the audio process PID for cleanup
 
